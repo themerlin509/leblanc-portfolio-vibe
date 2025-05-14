@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Section from '../components/Section';
 import Card from '../components/Card';
-import { Linkedin, Mail, Phone } from 'lucide-react';
+import { Linkedin, Mail, FileText } from 'lucide-react';
 import { toast } from '@/components/ui/sonner';
 
 const ContactSection = () => {
@@ -62,7 +62,7 @@ const ContactSection = () => {
 
           <Card className="flex items-center gap-4 hover:translate-y-[-5px] transition-all">
             <div className="p-3 bg-white/5 rounded-full">
-              <Phone size={24} className="text-white/80" />
+              <FileText size={24} className="text-white/80" />
             </div>
             <div>
               <h3 className="text-lg font-bold mb-1">CV</h3>
